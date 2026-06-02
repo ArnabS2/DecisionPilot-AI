@@ -20,8 +20,8 @@
   --dp-text:        #e2e8f0;
   --dp-text-muted:  #64748b;
   --dp-text-dim:    #334155;
-  --dp-font-body:   'Sora', sans-serif;
-  --dp-font-mono:   'DM Mono', monospace;
+  --dp-font-body:   'Sora', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+  --dp-font-mono:   'DM Mono', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', monospace;
   --dp-radius:      10px;
   --dp-radius-lg:   16px;
   --dp-shadow:      0 4px 24px rgba(0,0,0,0.45);

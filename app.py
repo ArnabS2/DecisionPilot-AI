@@ -791,13 +791,20 @@ def section_header(icon: str, title: str, subtitle: str = "") -> None:
         f"<p style='margin:0.25rem 0 0;color:#475569;font-size:0.85rem;'>{subtitle}</p>"
         if subtitle else ""
     )
+
     st.markdown(f"""
     <div style="margin:2rem 0 1rem;">
-      <h2 style="margin:0;font-family:'Syne',sans-serif;font-size:clamp(1.2rem,3vw,1.6rem);
-                 background:linear-gradient(135deg,#4f8ef7,#7c3aed);
-                 -webkit-background-clip:text;-webkit-text-fill-color:transparent;">
-        {icon} {title}
-      </h2>{sub}
+      <div style="display:flex;align-items:center;gap:0.55rem;">
+        <span style="font-size:clamp(1.2rem,3vw,1.6rem);line-height:1;">
+          {icon}
+        </span>
+        <h2 style="margin:0;font-family:'Syne',sans-serif;font-size:clamp(1.2rem,3vw,1.6rem);
+                   background:linear-gradient(135deg,#4f8ef7,#7c3aed);
+                   -webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+          {title}
+        </h2>
+      </div>
+      {sub}
     </div>
     """, unsafe_allow_html=True)
 
