@@ -1,0 +1,5 @@
+.env
+__pycache__/
+outputs/
+data/decision_history.csv
+data/usage.json
