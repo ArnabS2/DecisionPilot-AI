@@ -36,8 +36,31 @@ MAX_FREE_ANALYSES = 3
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 DECISION_CATEGORIES = [
-    "Career", "Education", "Finance", "Purchase",
-    "Project", "Internship", "Personal Growth", "Other",
+    "Career",
+    "Education",
+    "Business",
+    "Startup",
+    "Investment",
+    "Finance",
+    "Technology",
+    "AI & Machine Learning",
+    "Project",
+    "Job Offer",
+    "Internship",
+    "Freelancing",
+    "Entrepreneurship",
+    "Personal Growth",
+    "Skill Development",
+    "Health & Fitness",
+    "Lifestyle",
+    "Travel",
+    "Relocation",
+    "Relationships",
+    "Family",
+    "Purchases",
+    "Content Creation",
+    "Time Management",
+    "Other"
 ]
 
 HISTORY_COLS = [
