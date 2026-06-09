@@ -402,7 +402,7 @@ Rules:
         last_error = None
         raw = ""
 
-        for model_name in ("gemini-2.5-flash", "gemini-1.5-flash"):
+        for model_name in ("gemini-2.5-flash", "gemini-2.0-flash"):
             try:
                 model = genai.GenerativeModel(model_name)
                 response = model.generate_content(prompt)
